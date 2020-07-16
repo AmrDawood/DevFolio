@@ -111,14 +111,13 @@ header{
     0%{width: 0%;}
     10%{width: 0%;}
     80%{width: 100%;}
-    100%{widows: 100%;}
+    100%{width: 100%;}
 }
-
 @keyframes typeeffect{
     0%{width: 0%;}
     10%{width: 0%;}
     80%{width: 100%;}
-    100%{widows: 100%;}
+    100%{width: 100%;}
 }
 @-webkit-keyframes glowingborder{
     0%{border-color: transparent;}
