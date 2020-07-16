@@ -28,7 +28,9 @@ body{
 #services .line-under::after , #Portfolio .line-under::after , #blog .line-under::after {
     width: 4rem;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
 }
 .Over-Lay{
     background-color: #0078ff;
