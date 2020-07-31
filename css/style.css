@@ -96,10 +96,8 @@ header{
 .headerContent h1{
     font-size: 4.5rem;
 }
-.headerContent h3{
+.headerContent h2{
     font-size: 2.5rem;
-    overflow: hidden;
-    white-space: nowrap;
     border-right: 3px solid white;
 }
 .typeEffect {
@@ -218,6 +216,9 @@ section.Portfolio .card:hover img{
     -webkit-transform:scale(1.1,1.1);
         -ms-transform:scale(1.1,1.1);
             transform:scale(1.1,1.1);   
+}
+.Portfolio time{
+    color:#495057; /* better contrast web.dev.measure */
 }
 /*  Portfolio */
 /*-----------------------------------------------------------------*/
