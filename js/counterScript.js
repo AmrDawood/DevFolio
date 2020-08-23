@@ -1,6 +1,6 @@
 let counters =document.querySelectorAll('.statisticsItem span:first-of-type');
 /* console.log(counters);*/ //extract span elements as node list looks like array
-let counterSpeed=100; // the lower the value the faster the counter
+let counterSpeed=1000; // the lower the value the faster the counter
 let statisticsClick = document.getElementById('statisticsClick');
 statisticsClick.addEventListener('click',updateCounter);//when we click on the nav bar element we go to statistics section and count
 
@@ -37,11 +37,11 @@ function updateCounter(){
         // console.log(incrementValue);
         if(counterTarget>counterValue){
             counters[i].innerText=Math.ceil( counterValue+incrementValue);//used Math.ceil to make the number intger
+            setTimeout(updateCounter,50);//repeat updateCounter function after 50 milsecond  
         }else{
             counters[i].innerText=counterTarget;
         }
 }  
-setTimeout(updateCounter,10);//repeat updateCounter function after 10 milsecond  
 }
 
 
