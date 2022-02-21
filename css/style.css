@@ -85,6 +85,7 @@ header{
     background-size: cover;
     background-position: center center;
     color: #fff;
+    background-attachment: fixed;
 }
 .headerOverLay{
     background-color: rgba(0, 0, 0, 0.6);
@@ -177,7 +178,7 @@ header{
     background-image: url(../images/counters-bg.jpg);
     background-position: center center;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     color: #fff ;
 }
 .statisticsItem{
@@ -227,7 +228,7 @@ section.Portfolio .card:hover img{
     background-image: url(../images/overlay-bg.jpg);
     background-position: center center;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     color: #fff ;
 }
 .testimonialItem{
@@ -239,7 +240,7 @@ section.Portfolio .card:hover img{
     border-width: 1px ;
 }
 .testimonialItem li{
-   border: 1px black solid;
+   /* border: 1px black solid; */
 }
 a.bg-dark:focus, button.bg-dark:focus , a.bg-dark:active, button.bg-dark:active ,a.bg-white:focus, button.bg-white:focus , a.bg-white:active, button.bg-white:active {
     width: 3.5rem;
@@ -287,7 +288,7 @@ a.bg-dark:focus, button.bg-dark:focus , a.bg-dark:active, button.bg-dark:active 
     background-image: url(../images/overlay-bg.jpg);
     background-position: center center;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 #contact .container{
     z-index: 2;
